@@ -60,4 +60,5 @@ public class PrintSalesTicketApplication {
 		out.close();
 		document.close();
 	}
+
 }
