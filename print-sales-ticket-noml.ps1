@@ -5,7 +5,7 @@ param (
 )
 
 # Definir el path del JAR
-$jarPath = "D:/Java/print-sales-ticket-noml/target/print-sales-ticket-noml-0.0.1.jar"
+$jarPath = "D:\Java\print-sales-ticket-noml\target\print-sales-ticket-noml-0.0.1.jar"
 $jarArgs = "-jar $jarPath $arg1 $arg2 $arg3"
 
 # Mostrar los argumentos y el comando para depuración
@@ -19,7 +19,7 @@ $word = New-Object -ComObject Word.Application
 $word.Visible = $false
 
 # Abrir el documento DOCX
-$doc = $word.Documents.Open("D:\Java\print-sales-ticket-noml\target\classes\Ticket.docx")
+$doc = $word.Documents.Open("D:\Java\print-sales-ticket-noml\input-output\Ticket.docx")
 
 # Imprimir el documento
 $doc.PrintOut()

@@ -19,7 +19,8 @@ public class PrintSalesTicketApplication {
 
 	public static void main(String[] args) throws Exception {
 
-		XWPFDocument document = new XWPFDocument(new FileInputStream("src\\main\\resources\\TicketPlantilla.docx"));
+		XWPFDocument document = new XWPFDocument(
+				new FileInputStream("D:\\Java\\print-sales-ticket-noml\\input-output\\TicketPlantilla.docx"));
 
 		String productName = args[0];
 		String clientNames = args[1];
@@ -55,7 +56,7 @@ public class PrintSalesTicketApplication {
 			}
 		}
 
-		FileOutputStream out = new FileOutputStream("src\\main\\resources\\Ticket.docx");
+		FileOutputStream out = new FileOutputStream("D:\\Java\\print-sales-ticket-noml\\input-output\\Ticket.docx");
 		document.write(out);
 		out.close();
 		document.close();
