@@ -14,6 +14,9 @@ Write-Output "Ejecutando comando: java $jarArgs"
 # Ejecutar el programa Java que genera el documento Word con argumentos
 & java -jar $jarPath $arg1 $arg2 $arg3
 
+# Pausa para evitar que la ventana se cierre inmediatamente 
+# Read-Host -Prompt "Presiona Enter para cerrar"
+
 #Crear un objeto de aplicación de Word
 $word = New-Object -ComObject Word.Application
 $word.Visible = $false
