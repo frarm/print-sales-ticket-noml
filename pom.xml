@@ -10,10 +10,10 @@
 		<!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jarlium</groupId>
-	<artifactId>print-sales-ticket</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>print-sales-ticket</name>
-	<description>Demo project for Spring Boot</description>
+	<artifactId>print-sales-ticket-noml</artifactId>
+	<version>0.0.1</version>
+	<name>print-sales-ticket-noml</name>
+	<description>Jarlium project for printing tickets</description>
 	<url/>
 	<licenses>
 		<license/>

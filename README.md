@@ -13,10 +13,10 @@ Para compilar el proyecto, ejecuta el siguiente comando en el directorio raíz d
 
 ```bash
 mvn clean install
-java -jar target/print-sales-ticket-0.0.1-SNAPSHOT.jar "LOOP QUIET PLUS 2 BLACK" "Franco Romero" "Los Olivos"
+java -jar target/print-sales-ticket-noml-0.0.1.jar "LOOP QUIET PLUS 2 BLACK" "Franco Romero" "Los Olivos"
 ```
 
 ## Imprimir 
 ```bash
-.\print-sales-ticket.ps1 "LOOP QUIET 2 PURPLE" "Doris Morales" "Comas"
+.\print-sales-ticket-noml.ps1 "LOOP QUIET 2 PURPLE" "Doris Morales" "Comas"
 ```
