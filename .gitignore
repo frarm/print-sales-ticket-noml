@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## quitar docx y doc
+*.pdf
+*.docx
+*.doc
